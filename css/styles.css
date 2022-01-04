@@ -29,6 +29,9 @@
     .nav-wrapper {
         padding: 3vw;
     }
+    .home {
+        padding: 3rem 0 3rem 0;
+    }
     .firstcard {
         padding: 0 5vw;
     }
@@ -39,13 +42,15 @@
         color: #ec5242;
     }
     .firstcard h1 {
-        margin: 0.8rem 0 0.8rem 0;
+        margin: 0.8rem 0 3rem 0;
         font-family: "Cocogoose", sans-serif;
         font-weight: bold;
         color: #ec5242;
     }
     .secondcard {
-        padding: 0 7vw;
+        margin: 0 5vw;
+        padding: 0 3vw;
+        border: white solid 5px;
     }
     .secondcard p {
         font-size: 1.5rem;
@@ -72,13 +77,15 @@
         margin: 2.5rem;
     }
     .forthcard {
-        padding: 0 5vw;
+        padding: 0 0 3.5rem 0;
         background-color: rgb(40, 43, 50);
+        background-image: url(../imgs/paw.png);
+        background-size: 3rem;
     }
     .forthcard h3 {
         color: white;
         text-align: center;
-        padding: 3rem;
+        padding: 3rem 3rem 1rem 3rem;
         font-size: 2.5rem;
     }
     .forthcard p {
@@ -92,13 +99,13 @@
         justify-content: space-around;
         flex-direction: row;
         padding: 1.5rem;
-        background-color: rgb(58, 61, 70);
-        margin: 1rem;
+        background-color: rgb(60, 63, 70, 0.6);
+        margin: 1.5rem;
     }
     .minicard img {
         width: 5rem;
         height: 5rem;
-        margin-top: 2rem;
+        margin: 2rem 0 0 1rem;
     }
     .forthcard .orangebutton {
         width: 50vw;
@@ -109,5 +116,57 @@
         display: flex;
         justify-content: center;
         margin: auto;
+        margin-top: 3rem;
+        outline: none;
+        border: none;
+    }
+    .speakercard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2.5rem;
+    }
+    .speakercard img {
+        width: 12rem;
+        height: 12rem;
+    }
+    .speakercard h5 {
+        font-family: "Cocogoose", sans-serif;
+        font-weight: lighter;
+        margin: 0 1.5rem 0 1.5rem;
+        font-size: 1.4rem;
+    }
+    .speakercard p {
+        font-size: 1.2rem;
+        color: #ec5242;
+        font-family: "Lato", sans-serif;
+        font-style: italic;
+        margin: 1rem 1.5rem 1rem 1.5rem;
+    }
+    .orangehr {
+        border: #ec5242 1px solid;
+        align-items: center;
+        width: 10%;
+        margin-bottom: 2.5rem;
+    }
+    .speakers h4 {
+        text-align: center;
+        padding: 3rem 3rem 1rem 3rem;
+        font-size: 2.5rem;
+    }
+    .speakercard span {
+        font-size: 1rem;
+        font-family: "Lato", sans-serif;
+        margin: 1rem 1.5rem 1rem 1.5rem;
+    }
+    .grayhr {
+        border: gray 1px solid;
+        width: 10%;
+        margin: 1rem 1.5rem 2rem 1.5rem;
+    }
+    body {
+        background-image: url(../imgs/homebackground.jpg);
+        background-color: rgb(255, 255, 255, 0.3);
+        background-size: cover;
     }
 }
