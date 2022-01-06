@@ -13,25 +13,19 @@
 
 <body>
     <header>
+        <div class="navmedia">
+            <ul id="nav-mobile" class="right socialmedia">
+                <li><a href="#">English</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
         <nav>
-            <!-- <div class="nav-wrapper">
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>
-                        <a href="imgs/facebookicon.png"></a>
-                    </li>
-                    <li>
-                        <a href="imgs/twittericon.png"></a>
-                    </li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">My Page</a></li>
-                    <li><a href="#">Logout</a></li>
-                </ul>
-            </div> -->
             <div class="nav-wrapper">
                 <img src="imgs/CGI logo.png" class="brand-logo"></img>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="medium material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">About</a></li>
+                    <li><a id="redabout" href="sass.html">About</a></li>
                     <li><a href="badges.html">Program</a></li>
                     <li><a href="collapsible.html">Join</a></li>
                     <li><a href="mobile.html">Sponsor</a></li>
@@ -42,10 +36,13 @@
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <span class="closebutton">x</span>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">CGI Campaign</a></li>
         </ul>
     </header>
     <section class="home">
@@ -72,7 +69,7 @@
                         Listen to our professionals explanation on what we plan for now on.
                     </p>
                 </li>
-                <li class="minicard"><img src="./imgs/article-marketing-128.png"><span class="redfont">CGI <br>Exhibition</span>
+                <li class="minicard"><img src="./imgs/article-marketing-128.png"><span class="redfont">Exhibition</span>
                     <p>
                         Observe and interact with our successful subjects for a closer view of what we crave.
                     </p>
@@ -92,10 +89,13 @@
                 <li class="minicard"><img src="./imgs/dollar-2-128.png"><span class="redfont">CGI Start
   </span>
                     <p>
-                        Get opportunities to fund our project and garantee yourself one of the first subjects batch that will go to public.
+                        Get opportunities to fund our project and be one of the first owners.
                     </p>
                 </li>
             </ul>
+            <a href="#">
+                <h1 class="seeprogram">SEE THE WHOLE PROJECT</h1>
+            </a>
             <input type="button" class="orangebutton" value="Join CGI First Project">
         </div>
     </section>
@@ -103,64 +103,90 @@
         <div class="speakers">
             <h4>Featured Speakers</h4>
             <hr class="orangehr">
-            <ul>
+            <ul class="speakersul">
                 <li class="speakercard">
                     <img src="imgs/chad.jpg">
                     <div class="descrip">
                         <h5>Tizio Chad Dice Cose</h5>
-                        <p>Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                        <p class="subtitle">Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
                         <hr class="grayhr">
-                        <span>Chad studies the ectics and legalities related to the development of the CGI Project.</span>
+                        <p class="speakerdescrip">Chad studies the ectics and legalities related to the development of the CGI Project.</p>
                     </div>
                 </li>
                 <li class="speakercard">
                     <img src="imgs/tyler.jpg">
                     <div class="descrip">
                         <h5>Tyler Steinkamp</h5>
-                        <p>Soft Skills Managing Director at CGI Project</p>
+                        <p class="subtitle">Soft Skills Managing Director at CGI Project</p>
                         <hr class="grayhr">
-                        <span>With his empathy and communication skills he turned teamwork to another level, the increased productivity and decision-making capacity provided the possibility of this Project to go on.</span>
+                        <p class="speakerdescrip">With his empathy and communication skills he turned teamwork to another level, the increased productivity and decision-making capacity provided the possibility of this Project to go on.</p>
                     </div>
                 </li>
+                <div class="morebutton ">MORE<i class="material-icons">arrow_drop_down</i></div>
+            </ul>
+            <ul class="speakersul mobilecollapse">
                 <li class="speakercard">
                     <img src="imgs/zyzz.png">
                     <div class="descrip">
                         <h5>Aziz "Zyzz" Shavershian</h5>
-                        <p>Executive director of the CGI Project</p>
+                        <p class="subtitle">Executive director of the CGI Project</p>
                         <hr class="grayhr">
-                        <span>After he published his last book "Cat girls, a dream?" he was contacted by CGI's CEO and became one of the most important faces of the Project.</span>
+                        <p class="speakerdescrip">After he published his last book "Cat girls, a dream?" he was contacted by CGI's CEO and became one of the most important faces of the Project.</p>
                     </div>
                 </li>
                 <li class="speakercard">
                     <img src="imgs/milos.jpg">
                     <div class="descrip">
                         <h5>Ricardo Milos</h5>
-                        <p>Development and Research Director at Harvard Medical School</p>
+                        <p class="subtitle">Development and Research Director at Harvard Medical School</p>
                         <hr class="grayhr">
-                        <span>The face that leads CGI Project, with his brilliant mind and eloquency he keeps his team together even when the odds seems against him.</span>
+                        <p class="speakerdescrip">The face that leads CGI Project, with his brilliant mind and eloquency he keeps his team together even when the odds seems against him.</p>
                     </div>
                 </li>
                 <li class="speakercard">
-                    <img src="imgs/">
+                    <img src="imgs/billy.jpg">
                     <div class="descrip">
-                        <h5></h5>
-                        <p></p>
+                        <h5>Billy "Aniki" Herrington</h5>
+                        <p class="subtitle">Head Marketing Director on CGI</p>
                         <hr class="grayhr">
-                        <span></span>
+                        <p class="speakerdescrip">A extremely important face for CGI's sustainability, he alone was able to get the support needed to the fundation of the Program</p>
                     </div>
                 </li>
                 <li class="speakercard">
-                    <img src="imgs/">
+                    <img src="imgs/vandarkholme.jpg">
                     <div class="descrip">
-                        <h5></h5>
-                        <p></p>
+                        <h5>Van Darkholme</h5>
+                        <p class="subtitle">Dungeon Master at CGI</p>
                         <hr class="grayhr">
-                        <span></span>
+                        <p class="speakerdescrip">Thanks to his experience as a dungeon master, all of our subjects are well trained to follow up even the slightest tasks.</p>
                     </div>
                 </li>
             </ul>
         </div>
     </section>
+    <section class="partners">
+        <h6>Partners</h6>
+        <hr class="orangehr">
+        <ul class="partnerlogo">
+            <li><img src="imgs/amazon.png"></li>
+            <li><img src="imgs/airbnb.png"></li>
+            <li><img src="imgs/canon.png"></li>
+            <li><img src="imgs/csgo.png"></li>
+            <li><img src="imgs/google.png"></li>
+        </ul>
+    </section>
+    <footer class="footlogo">
+        <img src="imgs/CGI logo.png">
+        <ul class="footercontent">
+
+            <li>
+                <p>2023 Cat Girls Initiative. All Rights Reserved.</p>
+            </li>
+            <li>
+                <p>兄、私は立ち往生しています、あなたは兄を支配していますか？やめてください、やぁ http://catgirlsinitiative.com</p>
+            </li>
+        </ul>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
