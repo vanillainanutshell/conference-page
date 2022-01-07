@@ -5,7 +5,7 @@
 
 First Capstone Project
 
-![image](https://user-images.githubusercontent.com/88060989/144926829-b723e912-7e48-43c6-b0d7-5b343578ae26.png)
+![image](https://user-images.githubusercontent.com/88060989/148611662-09d1b0b4-5cf4-48a4-b0ef-b6aa73a44848.png)
 
 ## Built With
 
