@@ -97,6 +97,7 @@ nav .nav-wrapper {
 }
 
 .secondcard {
+    width: 50%;
     border: white solid 5px;
     background-color: rgb(249, 249, 249, 0.3);
 }
@@ -355,6 +356,7 @@ nav .nav-wrapper {
     }
     .secondcard {
         margin: 0 5vw;
+        width: 80%;
         padding: 0 3vw;
         border: white solid 5px;
     }
@@ -380,7 +382,7 @@ nav .nav-wrapper {
         color: #ec5242;
         font-family: "Cocogoose", sans-serif;
         font-size: 1.5rem;
-        margin: 2.5rem;
+        margin: 1rem;
     }
     .forthcard {
         padding: 0 0 3.5rem 0;
@@ -501,7 +503,7 @@ nav .nav-wrapper {
         align-items: center;
     }
     .speakersul>li {
-        width: auto;
+        width: 100%;
     }
     .morebutton {
         margin: 0;
@@ -526,8 +528,20 @@ nav .nav-wrapper {
     }
     .closebutton {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         font-size: 2rem;
         margin-right: 2rem;
+    }
+    .morebutton:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #ec5242;
+        border: 1px solid #ec5242;
+    }
+    .orangebutton:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #ec5242;
+        border: 1px solid #ec5242;
     }
 }
