@@ -25,7 +25,7 @@
                 <a href="home.html">
                     <img src="imgs/CGI logo.png" class="brand-logo"></img>
                 </a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="medium material-icons">menu</i></a>
+                <a href="#" data-target="mobile-demo" id="burgir" class="sidenav-trigger"><i class="medium material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a id="redabout" href="about.html">About</a></li>
                     <li><a href="badges.html">Program</a></li>
@@ -38,7 +38,7 @@
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
-            <span class="closebutton">x</span>
+            <span id="close" class="closebutton">x</span>
             <li><a href="about.html">About</a></li>
             <li><a href="#">Program</a></li>
             <li><a href="#">Join</a></li>
@@ -102,69 +102,7 @@
         </div>
     </section>
     <section id="speakers">
-        <div class="speakers">
-            <h4>Featured Speakers</h4>
-            <hr class="orangehr">
-            <ul class="speakersul">
-                <li class="speakercard">
-                    <img src="imgs/chad.jpg">
-                    <div class="descrip">
-                        <h5>Tizio Chad Dice Cose</h5>
-                        <p class="subtitle">Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                        <hr class="grayhr">
-                        <p class="speakerdescrip">Chad studies the ectics and legalities related to the development of the CGI Project.</p>
-                    </div>
-                </li>
-                <li class="speakercard">
-                    <img src="imgs/tyler.jpg">
-                    <div class="descrip">
-                        <h5>Tyler Steinkamp</h5>
-                        <p class="subtitle">Soft Skills Managing Director at CGI Project</p>
-                        <hr class="grayhr">
-                        <p class="speakerdescrip">With his empathy and communication skills he turned teamwork to another level, the increased productivity and decision-making capacity provided the possibility of this Project to go on.</p>
-                    </div>
-                </li>
-                <div class="morebutton ">MORE<i class="material-icons">arrow_drop_down</i></div>
-            </ul>
-            <ul class="speakersul mobilecollapse">
-                <li class="speakercard">
-                    <img src="imgs/zyzz.png">
-                    <div class="descrip">
-                        <h5>Aziz "Zyzz" Shavershian</h5>
-                        <p class="subtitle">Executive director of the CGI Project</p>
-                        <hr class="grayhr">
-                        <p class="speakerdescrip">After he published his last book "Cat girls, a dream?" he was contacted by CGI's CEO and became one of the most important faces of the Project.</p>
-                    </div>
-                </li>
-                <li class="speakercard">
-                    <img src="imgs/milos.jpg">
-                    <div class="descrip">
-                        <h5>Ricardo Milos</h5>
-                        <p class="subtitle">Development and Research Director at Harvard Medical School</p>
-                        <hr class="grayhr">
-                        <p class="speakerdescrip">The face that leads CGI Project, with his brilliant mind and eloquency he keeps his team together even when the odds seems against him.</p>
-                    </div>
-                </li>
-                <li class="speakercard">
-                    <img src="imgs/billy.jpg">
-                    <div class="descrip">
-                        <h5>Billy "Aniki" Herrington</h5>
-                        <p class="subtitle">Head Marketing Director on CGI</p>
-                        <hr class="grayhr">
-                        <p class="speakerdescrip">A extremely important face for CGI's sustainability, he alone was able to get the support needed to the fundation of the Program</p>
-                    </div>
-                </li>
-                <li class="speakercard">
-                    <img src="imgs/vandarkholme.jpg">
-                    <div class="descrip">
-                        <h5>Van Darkholme</h5>
-                        <p class="subtitle">Dungeon Master at CGI</p>
-                        <hr class="grayhr">
-                        <p class="speakerdescrip">Thanks to his experience as a dungeon master, all of our subjects are well trained to follow up even the slightest tasks.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
+
     </section>
     <section class="partners">
         <h6>Partners</h6>
@@ -191,6 +129,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/speakers.js"></script>
 </body>
 
 </html>

@@ -1,562 +1,617 @@
-@font-face {
-    font-family: "Cocogoose";
-    src: url("../fonts/Cocogoose_trial.otf");
-}
-
-.navmedia {
-    width: 100%;
-    background-color: rgb(69, 69, 69);
-    height: 2rem;
-    margin: 0;
-}
-
-.socialmedia {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    color: white;
-    margin: 0 10rem 0 0;
-}
-
-.socialmedia>li {
-    margin-right: 2rem;
-}
-
-.navmedia img {
-    width: 0.7rem;
-}
-
-.socialmedia a {
-    color: white;
-}
-
-.home {
-    background-image: url(../imgs/homebackground-ConvertImage.jpg);
-    background-size: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    width: 100vw;
-    padding: 10rem;
-    background-color: white;
-}
-
-.desktophidden {
-    display: none;
-}
-
-.brand-logo {
-    width: 5vw;
-    margin-left: 10rem;
-    display: flex;
-    align-items: center;
-}
-
-nav .nav-wrapper {
-    background-color: white;
-    height: 6rem !important;
-    box-shadow: 0 2px 5px #888888;
-}
-
-.hide-on-med-and-down {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10rem;
-}
-
-.hide-on-med-and-down>li>a {
-    font-size: 1.2rem;
-    line-height: normal;
-    color: #5b5b5b;
-    font-family: "Lato", sans-serif;
-    margin-left: 2rem;
-}
-
-.hide-on-med-and-down>li {
-    display: flex;
-    align-items: center;
-}
-
-#redabout {
-    color: #ec5242;
-}
-
-.campaignborder {
-    border: #ec5242 solid 5px;
-    padding: 0.5rem;
-    text-align: center;
-    color: #ec5242 !important;
-}
-
-.firstcard p {
-    color: #ec5242;
-    font-size: 3rem;
-    font-family: "Lato", sans-serif;
-    font-weight: normal;
-}
-
-.firstcard h1 {
-    color: #ec5242;
-    font-size: 5rem;
-    font-family: "Cocogoose", sans-serif;
-}
-
-.secondcard {
-    border: white solid 5px;
-    background-color: rgb(249, 249, 249, 0.3);
-}
-
-.secondcard p {
-    font-size: 1.3rem;
-    font-family: "Lato", sans-serif;
-    color: #272a31;
-    margin: 1rem;
-}
-
-.thirdcard h2 {
-    font-size: 2rem;
-    color: #5b5b5b;
-    font-family: "Cocogoose", sans-serif;
-}
-
-.thirdcard p {
-    color: #272a31;
-    font-size: 1.6rem;
-    font-family: "Lato", sans-serif;
-}
-
-.forthcard {
-    padding: 5rem;
-    background-color: white;
-    background-size: 3rem;
-    height: 50rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-
-.forthcard h3 {
-    color: #272a31;
-    text-align: center;
-    padding: 1rem;
-    font-size: 2.5rem;
-}
-
-.forthcard p {
-    color: #272a31;
-    font-family: "Lato", sans-serif;
-    width: auto;
-    font-size: 1.2rem;
-}
-
-.programcards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.programcards .minicard {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    padding: 1rem;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(60, 63, 70, 0.6);
-    margin: 0.25rem;
-}
-
-.minicard img {
-    width: 5rem;
-    height: 5rem;
-    margin: 0;
-    justify-content: center;
-}
-
-.forthcard .orangebutton {
-    display: none;
-}
-
-.redfont {
-    color: #ec5242;
-    font-family: "Cocogoose", sans-serif;
-    font-size: 1.3rem;
-    margin: 1rem;
-}
-
-.logo {
-    border: #888888 1px solid;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-}
-
-.orangehr {
-    border: #ec5242 1px solid;
-    align-items: center;
-    width: 5%;
-    margin-bottom: 2.5rem;
-}
-
-.speakercard {
-    display: flex;
-    flex-direction: row;
-    padding: 2.5rem;
-}
-
-.speakercard img {
-    width: 12rem;
-    height: 12rem;
-}
-
-.speakercard h5 {
-    font-family: "Cocogoose", sans-serif;
-    font-weight: lighter;
-    margin: 0 1.5rem 0 1.5rem;
-    font-size: 1.4rem;
-}
-
-.speakercard .subtitle {
-    font-size: 1.2rem;
-    color: #ec5242;
-    font-family: "Lato", sans-serif;
-    font-style: italic;
-    margin: 1rem 1.5rem 1rem 1.5rem;
-}
-
-.speakers {
-    background: white;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.speakers h4 {
-    text-align: center;
-    padding: 3rem 3rem 1rem 3rem;
-    font-size: 2.5rem;
-}
-
-.speakercard .speakerdescrip {
-    font-size: 1rem;
-    font-family: "Lato", sans-serif;
-    margin: 1rem 1.5rem 1rem 1.5rem;
-}
-
-.grayhr {
-    border: gray 1px solid;
-    width: 2rem;
-    margin: 1rem 1.5rem 1rem 1.5rem;
-}
-
-.seeprogram {
-    font-size: 1.5rem;
-    align-items: center;
-    text-decoration: underline;
-    color: white;
-    width: 100%;
-    text-align: center;
-}
-
-.morebutton {
-    display: none;
-}
-
-.mobilecollapse {
-    display: flex;
-}
-
-.partners {
-    padding-top: 3rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(65, 65, 70);
-    display: none;
-}
-
-.partners>h6 {
-    font-size: 2.5rem;
-    color: rgb(157, 157, 159);
-    font-family: "Lato", sans-serif;
-}
-
-.partnerlogo {
-    display: flex;
-    flex-direction: row;
-}
-
-.partnerlogo>li>img {
-    width: 10rem;
-    padding-bottom: 5rem;
-}
-
-.footlogo {
-    padding: 3rem;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(69, 69, 69);
-    justify-content: space-between;
-}
-
-.footercontent {
-    margin: 2rem;
-}
-
-.footlogo>img {
-    margin-left: 5rem;
-}
-
-.footercontent {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
-.footercontent>li>p {
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    color: white;
-}
-
-.programcards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.tryouts {
-    width: 100%;
-    height: 30rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.card1 {
-    width: 50%;
-    object-fit: cover;
-    height: 60%;
-    background: url(../imgs/tryout1.jpg);
-}
-
-.card1>h6 {
-    text-align: center;
-    font-size: 2rem;
-    color: white;
-    font-family: "Lato", sans-serif;
-}
-
-.card1>p {
-    text-align: center;
-    font-size: 2rem;
-    color: white;
-    font-family: "Lato", sans-serif;
-}
-
-@media only screen and (max-width: 768px) {
-    nav .brand-logo {
-        display: none;
-    }
-    nav {
-        background-color: transparent;
-        width: 100vw;
-        height: 10vh;
-    }
-    .navmedia {
-        display: none;
-    }
-    nav a {
-        color: black;
-    }
-    nav .sidenav-trigger i {
-        font-size: 6rem;
-    }
-    .nav-wrapper {
-        padding: 3vw;
-        background-color: transparent !important;
-        box-shadow: none !important;
-    }
-    .home {
-        padding: 3rem 0 3rem 0;
-    }
-    .firstcard {
-        padding: 0 5vw;
-    }
-    .firstcard p {
-        font-size: 2rem;
-        margin-bottom: 0;
-        font-family: "Lato", sans-serif;
-        color: #ec5242;
-        text-align: center;
-    }
-    .firstcard h1 {
-        margin: 0.8rem 0 3rem 0;
-        font-family: "Cocogoose", sans-serif;
-        font-weight: bold;
-        color: #ec5242;
-        text-align: center;
-    }
-    .secondcard {
-        margin: 0 5vw;
-        padding: 0 3vw;
-        border: #272a31 solid 1px;
-        background-color: rgb(255, 255, 255, 0.5);
-    }
-    .secondcard p {
-        font-size: 1.5rem;
-        font-family: "Lato", sans-serif;
-        color: #272a31;
-    }
-    .thirdcard {
-        padding: 0 5vw;
-    }
-    .thirdcard h2 {
-        margin: 2rem;
-        font-size: 1.3rem;
-        color: #5b5b5b;
-        font-family: "Lato", sans-serif;
-        text-align: center;
-    }
-    .thirdcard p {
-        color: #272a31;
-        font-size: 1rem;
-        font-family: "Lato", sans-serif;
-        text-align: center;
-    }
-    .redfont {
-        color: #ec5242;
-        font-family: "Cocogoose", sans-serif;
-        font-size: 1.5rem;
-        margin: 2.5rem;
-    }
-    .forthcard {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 5rem;
-        background-color: white;
-        background-size: 3rem;
-        height: auto;
-        border-bottom: #888888 1px solid;
-    }
-    .forthcard h3 {
-        color: #272a31;
-        text-align: center;
-        padding: 3rem 3rem 1rem 3rem;
-        font-size: 2.5rem;
-    }
-    .forthcard p {
-        color: #272a31;
-        font-family: "Lato", sans-serif;
-        font-size: 1.4rem;
-    }
-    .programcards {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo {
-        border: #888888 1px solid;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .orangehr {
-        border: #ec5242 1px solid;
-        align-items: center;
-        width: 10%;
-        margin-bottom: 2.5rem;
-    }
-    .speakers {}
-    .speakers h4 {
-        text-align: center;
-        padding: 3rem 3rem 1rem 3rem;
-        font-size: 2.5rem;
-        margin: 0;
-    }
-    .speakercard .speakerdescrip {
-        font-size: 1rem;
-        font-family: "Lato", sans-serif;
-        margin: 1rem 1.5rem 1rem 1.5rem;
-    }
-    .grayhr {
-        border: gray 1px solid;
-        width: 10%;
-        margin: 1rem 1.5rem 1rem 1.5rem;
-    }
-    body {
-        background-image: url(../imgs/homebackground-ConvertImage.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: rgb(255, 255, 255, 0.2);
-    }
-    .sidenav {
-        width: 100vw;
-    }
-    .sidenav li a {
-        font-size: 2rem;
-        text-align: center;
-        padding: 5rem 0 5rem 0;
-    }
-    .seeprogram {
-        display: none;
-    }
-    .morebutton {
-        margin: 0;
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Lato", sans-serif;
-        font-size: 1.5rem;
-        border: 1px solid #5b5b5b;
-        border-radius: 5px;
-        padding: 1rem;
-    }
-    .mobilecollapse {
-        display: none;
-    }
-    .footlogo {
-        background-color: white;
-    }
-    .footercontent>li>p {
-        color: #272a31;
-    }
-    .closebutton {
-        display: flex;
-        justify-content: end;
-        font-size: 2rem;
-        margin-right: 2rem;
-    }
-    .partners {
-        display: flex;
-    }
-    .partnerlogo {
-        display: flex;
-    }
-    .partnerlogo>li>img {
-        width: 7.5rem;
-        object-fit: cover;
-    }
-    .mobilehidden {
-        display: none;
-    }
-    .desktophidden {
-        display: flex;
-    }
-}
+                @font-face {
+                font-family: "Cocogoose";
+                src: url("../fonts/Cocogoose_trial.otf");
+            }
+            
+            .navmedia {
+                width: 100%;
+                background-color: rgb(69, 69, 69);
+                height: 2rem;
+                margin: 0;
+            }
+            
+            .socialmedia {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                color: white;
+                margin: 0 10rem 0 0;
+            }
+            
+            .socialmedia>li {
+                margin-right: 2rem;
+            }
+            
+            .navmedia img {
+                width: 0.7rem;
+            }
+            
+            .socialmedia a {
+                color: white;
+            }
+            
+            .home {
+                background-image: url(../imgs/homebackground-ConvertImage.jpg);
+                background-size: auto;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                background-repeat: no-repeat;
+                width: 100vw;
+                padding: 10rem;
+                background-color: white;
+            }
+            
+            .desktophidden {
+                display: none;
+            }
+            
+            .brand-logo {
+                width: 75px;
+                margin-left: 6rem;
+                display: flex;
+                align-items: center;
+            }
+            
+            nav .nav-wrapper {
+                background-color: white;
+                height: 6rem !important;
+                box-shadow: 0 2px 5px #888888;
+            }
+            
+            .hide-on-med-and-down {
+                margin-top: 1.5rem;
+                display: flex;
+                justify-content: space-between;
+                margin-right: 10rem;
+            }
+            
+            .hide-on-med-and-down>li>a {
+                font-size: 1.2rem;
+                line-height: normal;
+                color: #5b5b5b;
+                font-family: "Lato", sans-serif;
+                margin-left: 2rem;
+            }
+            
+            .hide-on-med-and-down>li {
+                display: flex;
+                align-items: center;
+            }
+            
+            #redabout {
+                color: #ec5242;
+            }
+            
+            .campaignborder {
+                border: #ec5242 solid 5px;
+                padding: 0.5rem;
+                text-align: center;
+                color: #ec5242 !important;
+            }
+            
+            .firstcard p {
+                color: #ec5242;
+                font-size: 3rem;
+                font-family: "Lato", sans-serif;
+                font-weight: normal;
+            }
+            
+            .firstcard h1 {
+                color: #ec5242;
+                font-size: 5rem;
+                font-family: "Cocogoose", sans-serif;
+            }
+            
+            .secondcard {
+                border: white solid 5px;
+                background-color: rgb(249, 249, 249, 0.3);
+            }
+            
+            .secondcard p {
+                font-size: 1.3rem;
+                font-family: "Lato", sans-serif;
+                color: #272a31;
+                margin: 1rem;
+            }
+            
+            .thirdcard h2 {
+                font-size: 2rem;
+                color: #5b5b5b;
+                font-family: "Cocogoose", sans-serif;
+            }
+            
+            .thirdcard p {
+                color: #272a31;
+                font-size: 1.6rem;
+                font-family: "Lato", sans-serif;
+            }
+            
+            .forthcard {
+                padding: 5rem;
+                background-color: white;
+                background-size: 3rem;
+                height: 50rem;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+            }
+            
+            .forthcard h3 {
+                color: #272a31;
+                text-align: center;
+                padding: 1rem;
+                font-size: 2.5rem;
+            }
+            
+            .forthcard p {
+                color: #272a31;
+                font-family: "Lato", sans-serif;
+                width: auto;
+                font-size: 1.2rem;
+            }
+            
+            .programcards {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .programcards .minicard {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                padding: 1rem;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(60, 63, 70, 0.6);
+                margin: 0.25rem;
+            }
+            
+            .minicard img {
+                width: 5rem;
+                height: 5rem;
+                margin: 0;
+                justify-content: center;
+            }
+            
+            .forthcard .orangebutton {
+                display: none;
+            }
+            
+            .redfont {
+                color: #ec5242;
+                font-family: "Cocogoose", sans-serif;
+                font-size: 1.3rem;
+                margin: 1rem;
+            }
+            
+            .logo {
+                border: #888888 1px solid;
+                width: 60%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1rem;
+            }
+            
+            .orangehr {
+                border: #ec5242 1px solid;
+                align-items: center;
+                width: 5%;
+                margin-bottom: 2rem;
+            }
+            
+            .speakercard {
+                display: flex;
+                flex-direction: row;
+                padding: 2.5rem;
+            }
+            
+            .speakercard img {
+                width: 12rem;
+                height: 12rem;
+            }
+            
+            .speakercard h5 {
+                font-family: "Cocogoose", sans-serif;
+                font-weight: lighter;
+                margin: 0 1.5rem 0 1.5rem;
+                font-size: 1.4rem;
+            }
+            
+            .speakercard .subtitle {
+                font-size: 1.2rem;
+                color: #ec5242;
+                font-family: "Lato", sans-serif;
+                font-style: italic;
+                margin: 1rem 1.5rem 1rem 1.5rem;
+            }
+            
+            .speakers {
+                background: white;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 100%;
+            }
+            
+            .speakers h4 {
+                text-align: center;
+                font-size: 2.5rem;
+            }
+            
+            .speakercard .speakerdescrip {
+                font-size: 1rem;
+                font-family: "Lato", sans-serif;
+                margin: 1rem 1.5rem 1rem 1.5rem;
+            }
+            
+            .grayhr {
+                border: gray 1px solid;
+                width: 2rem;
+                margin: 1rem 1.5rem 1rem 1.5rem;
+            }
+            
+            .seeprogram {
+                font-size: 1.5rem;
+                align-items: center;
+                text-decoration: underline;
+                color: white;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .morebutton {
+                display: none;
+            }
+            
+            .mobilecollapse {
+                display: flex;
+            }
+            
+            .partners {
+                padding-top: 3rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgb(65, 65, 70);
+                display: none;
+            }
+            
+            .partners>h6 {
+                font-size: 2.5rem;
+                color: rgb(157, 157, 159);
+                font-family: "Lato", sans-serif;
+            }
+            
+            .partnerlogo {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .partnerlogo>li>img {
+                width: 10rem;
+                padding-bottom: 5rem;
+            }
+            
+            .footlogo {
+                padding: 3rem;
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(69, 69, 69);
+                justify-content: space-between;
+            }
+            
+            .footercontent {
+                margin: 2rem;
+            }
+            
+            .footlogo>img {
+                margin-left: 5rem;
+            }
+            
+            .footercontent {
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+            }
+            
+            .footercontent>li>p {
+                font-family: "Lato", sans-serif;
+                font-size: 1rem;
+                color: white;
+            }
+            
+            .programcards {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .tryouts {
+                width: 100%;
+                height: 50vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+            }
+            
+            .card1 {
+                width: 30%;
+                height: 25vh;
+                background: url(../imgs/tryout1.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin: 2rem 1rem 4rem 1rem;
+            }
+            
+            .redfilter {
+                background-color: rgb(139, 0, 0, 0.4);
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .redfilter>h6 {
+                text-align: center;
+                font-size: 2rem;
+                color: white;
+                font-family: "Lato", sans-serif;
+                margin: 0;
+            }
+            
+            .redfilter>p {
+                text-align: center;
+                font-size: 2rem;
+                color: white;
+                font-family: "Lato", sans-serif;
+            }
+            
+            .card2 {
+                margin: 2rem 1rem 4rem 1rem;
+                width: 30%;
+                height: 25vh;
+                background: url(../imgs/tryout2.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .redfilter>h6 {
+                text-align: center;
+                font-size: 2rem;
+                color: white;
+                font-family: "Lato", sans-serif;
+            }
+            
+            .redfilter>p {
+                text-align: center;
+                font-size: 2rem;
+                color: white;
+                font-family: "Lato", sans-serif;
+                margin: 1rem;
+            }
+            
+            .takealook {
+                margin: 3rem;
+            }
+            
+            @media only screen and (max-width: 768px) {
+                nav .brand-logo {
+                    display: none;
+                }
+                nav {
+                    background-color: transparent;
+                    width: 100vw;
+                    height: 10vh;
+                }
+                .navmedia {
+                    display: none;
+                }
+                nav a {
+                    color: black;
+                }
+                nav .sidenav-trigger i {
+                    font-size: 6rem;
+                }
+                .nav-wrapper {
+                    padding: 3vw;
+                    background-color: transparent !important;
+                    box-shadow: none !important;
+                }
+                .home {
+                    padding: 3rem 0 3rem 0;
+                }
+                .firstcard {
+                    padding: 0 5vw;
+                }
+                .firstcard p {
+                    font-size: 2rem;
+                    margin-bottom: 0;
+                    font-family: "Lato", sans-serif;
+                    color: #ec5242;
+                    text-align: center;
+                }
+                .firstcard h1 {
+                    margin: 0.8rem 0 3rem 0;
+                    font-family: "Cocogoose", sans-serif;
+                    font-weight: bold;
+                    color: #ec5242;
+                    text-align: center;
+                }
+                .secondcard {
+                    margin: 0 5vw;
+                    padding: 0 3vw;
+                    border: #272a31 solid 1px;
+                    background-color: rgb(255, 255, 255, 0.5);
+                }
+                .secondcard p {
+                    font-size: 1.5rem;
+                    font-family: "Lato", sans-serif;
+                    color: #272a31;
+                }
+                .thirdcard {
+                    padding: 0 5vw;
+                }
+                .thirdcard h2 {
+                    margin: 2rem;
+                    font-size: 1.3rem;
+                    color: #5b5b5b;
+                    font-family: "Lato", sans-serif;
+                    text-align: center;
+                }
+                .thirdcard p {
+                    color: #272a31;
+                    font-size: 1rem;
+                    font-family: "Lato", sans-serif;
+                    text-align: center;
+                }
+                .redfont {
+                    color: #ec5242;
+                    font-family: "Cocogoose", sans-serif;
+                    font-size: 1.5rem;
+                    margin: 2.5rem;
+                }
+                .forthcard {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 5rem;
+                    background-color: white;
+                    background-size: 3rem;
+                    height: auto;
+                    border-bottom: #888888 1px solid;
+                }
+                .forthcard h3 {
+                    color: #272a31;
+                    text-align: center;
+                    padding: 3rem 3rem 1rem 3rem;
+                    font-size: 2.5rem;
+                }
+                .forthcard p {
+                    color: #272a31;
+                    font-family: "Lato", sans-serif;
+                    font-size: 1.4rem;
+                }
+                .programcards {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .logo {
+                    border: #888888 1px solid;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .orangehr {
+                    border: #ec5242 1px solid;
+                    align-items: center;
+                    width: 10%;
+                    margin-bottom: 2rem;
+                }
+                .speakers h4 {
+                    text-align: center;
+                    padding: 3rem 3rem 1rem 3rem;
+                    font-size: 2.5rem;
+                    margin: 0;
+                }
+                .speakercard .speakerdescrip {
+                    font-size: 1rem;
+                    font-family: "Lato", sans-serif;
+                    margin: 1rem 1.5rem 1rem 1.5rem;
+                }
+                .grayhr {
+                    border: gray 1px solid;
+                    width: 10%;
+                    margin: 1rem 1.5rem 1rem 1.5rem;
+                }
+                body {
+                    background-image: url(../imgs/homebackground-ConvertImage.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-color: rgb(255, 255, 255, 0.2);
+                }
+                .sidenav {
+                    width: 100vw;
+                }
+                .sidenav li a {
+                    font-size: 2rem;
+                    text-align: center;
+                    padding: 5rem 0 5rem 0;
+                }
+                .seeprogram {
+                    display: none;
+                }
+                .morebutton {
+                    margin: 0;
+                    width: 90%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: "Lato", sans-serif;
+                    font-size: 1.5rem;
+                    border: 1px solid #5b5b5b;
+                    border-radius: 5px;
+                    padding: 1rem;
+                }
+                .mobilecollapse {
+                    display: none;
+                }
+                .footlogo {
+                    background-color: white;
+                }
+                .footercontent>li>p {
+                    color: #272a31;
+                }
+                .closebutton {
+                    display: flex;
+                    justify-content: flex-end;
+                    font-size: 2rem;
+                    margin-right: 2rem;
+                }
+                .partners {
+                    display: flex;
+                }
+                .partnerlogo {
+                    display: flex;
+                }
+                .partnerlogo>li>img {
+                    width: 7.5rem;
+                    object-fit: cover;
+                }
+                .mobilehidden {
+                    display: none;
+                }
+                .desktophidden {
+                    display: flex;
+                }
+                .tryouts {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .card1 {
+                    width: 50%;
+                    height: 20vh;
+                    margin-bottom: 1rem;
+                }
+                .card2 {
+                    width: 50%;
+                    height: 20vh;
+                    margin-top: 1rem;
+                }
