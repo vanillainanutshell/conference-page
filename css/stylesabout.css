@@ -369,6 +369,15 @@ nav .nav-wrapper {
   margin: 2rem 1rem 4rem 1rem;
 }
 
+.fbicon > a > img {
+  width: 0.5rem;
+  margin-top: 5px;
+}
+
+.twittericon > a > img {
+  width: 1rem;
+}
+
 .card2 {
   margin: 2rem 1rem 4rem 1rem;
   width: 30%;
