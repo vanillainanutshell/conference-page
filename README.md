@@ -5,7 +5,7 @@
 
 First Capstone Project
 
-![image](https://user-images.githubusercontent.com/88060989/144926829-b723e912-7e48-43c6-b0d7-5b343578ae26.png)
+![image](https://user-images.githubusercontent.com/88060989/148611740-8c94fa74-d46e-4b00-97fe-50c8b662cd49.png)
 
 ## Built With
 
@@ -37,6 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- This project uses [Cindy Shin's](https://www.behance.net/adagio07) [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
