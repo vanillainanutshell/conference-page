@@ -37,7 +37,8 @@ const speakerinfo = [{
 },
 ];
 speakersection.id = 'speakers';
-speakersection.innerHTML = `<div class="speakers">
+window.onload = () => {
+  speakersection.innerHTML = `<div class="speakers">
 <h4>Featured Speakers</h4>
 <hr class="orangehr">
 <ul class="speakersul">
@@ -96,3 +97,4 @@ speakersection.innerHTML = `<div class="speakers">
 </li>
 </ul>
 </div>`;
+};

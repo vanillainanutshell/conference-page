@@ -313,6 +313,15 @@ nav .nav-wrapper {
   color: #5b5b5b;
 }
 
+.fbicon > a > img {
+  width: 0.5rem;
+  margin-top: 5px;
+}
+
+.twittericon > a > img {
+  width: 1rem;
+}
+
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
     display: none;
