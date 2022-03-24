@@ -13,6 +13,8 @@ First Capstone Project
 - CSS
 - JavaScript
 
+## Live Link
+- [Link](https://celadon-truffle-92118d.netlify.app)
 
 ### Setup
 
